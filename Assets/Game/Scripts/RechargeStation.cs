@@ -12,11 +12,14 @@ public class RechargeStation : MonoBehaviour
     [SerializeField] private RechargeMode rechargeMode =
         RechargeMode.Infinite;
 
-    [SerializeField] private float rechargePerSecond = 25f;
-    [SerializeField] private float oneTimeRechargeAmount = 50f;
+    [SerializeField] private float rechargePerSecond = 5f;
+    [SerializeField] private float oneTimeRechargeAmount = 25f;
 
     [Header("Visuals")]
     [SerializeField] private Color usedColor = Color.gray;
+
+    [Header("Sound")]
+    [SerializeField] private AudioSource rechargeAudio;
 
     private GameManager gameManager;
     private SpriteRenderer spriteRenderer;
@@ -29,6 +32,12 @@ public class RechargeStation : MonoBehaviour
 
         spriteRenderer =
             GetComponent<SpriteRenderer>();
+
+        if (rechargeAudio != null)
+        {
+            rechargeAudio.loop = true;
+            rechargeAudio.playOnAwake = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -42,6 +51,13 @@ public class RechargeStation : MonoBehaviour
         if (rechargeMode == RechargeMode.OneTime)
         {
             UseOneTimeRecharge();
+        }
+
+        if (rechargeAudio != null &&
+            rechargeAudio.clip != null &&
+            !rechargeAudio.isPlaying)
+        {
+            rechargeAudio.Play();
         }
     }
 
@@ -64,10 +80,19 @@ public class RechargeStation : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player") &&
-            gameManager != null)
+        if (!other.CompareTag("Player"))
+        {
+            return;
+        }
+
+        if (gameManager != null)
         {
             gameManager.SetRecharging(false);
+        }
+
+        if (rechargeAudio != null)
+        {
+            rechargeAudio.Stop();
         }
     }
 

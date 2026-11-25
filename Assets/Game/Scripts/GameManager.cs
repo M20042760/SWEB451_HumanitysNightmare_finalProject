@@ -8,29 +8,33 @@ public class GameManager : MonoBehaviour
 {
     [Header("Battery")]
     [SerializeField] private float maxBattery = 100f;
-    [SerializeField] private float batteryDrainPerSecond = 1.5f;
+    [SerializeField] private float batteryDrainPerSecond = 2f;
 
-    [Header("Capture")]
+    [Header("Player")]
     [SerializeField] private Transform player;
-    [SerializeField] private Transform spawnPoint;
+    [SerializeField] private Transform playerSpawnPoint;
+
+    [Header("Detection")]
     [SerializeField] private float captureDelay = 5f;
     [SerializeField] private float captureMessageDuration = 2f;
+    [SerializeField] private float flickerStartDelay = 3f;
+    [SerializeField] private float detectionLingerDuration = 3f;
+    [SerializeField] private float captureCooldown = 1.5f;
 
-    [Header("HUD")]
+    [Header("UI")]
     [SerializeField] private TMP_Text batteryText;
     [SerializeField] private TMP_Text statusText;
-
-    [Header("Detection UI")]
     [SerializeField] private Image detectionBorder;
     [SerializeField] private float detectionFadeSpeed = 5f;
-    [SerializeField] private float flickerStartDelay = 3f;
-    [SerializeField] private float detectedBorderAlpha = 0.65f;
-    [SerializeField] private float detectionLingerDuration = 3f;
+
+    [Header("Detection Sound")]
+    [SerializeField] private AudioSource detectionWarningAudio;
 
     private float battery;
     private float detectionTimer;
     private float captureMessageTimer;
     private float detectionLingerTimer;
+    private float captureCooldownTimer;
 
     private bool detected;
     private bool recharging;
@@ -39,7 +43,7 @@ public class GameManager : MonoBehaviour
     private bool gameOver;
     private bool betaCompleted;
 
-    private string rewiringMessage;
+    private string rewiringMessage = "";
 
     public bool IsHidden => hidden;
 
@@ -49,9 +53,15 @@ public class GameManager : MonoBehaviour
 
         if (detectionBorder != null)
         {
-            Color borderColor = detectionBorder.color;
-            borderColor.a = 0f;
-            detectionBorder.color = borderColor;
+            Color color = detectionBorder.color;
+            color.a = 0f;
+            detectionBorder.color = color;
+        }
+
+        if (detectionWarningAudio != null)
+        {
+            detectionWarningAudio.loop = true;
+            detectionWarningAudio.playOnAwake = false;
         }
 
         RefreshUI();
@@ -60,6 +70,12 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         UpdateDetectionBorder();
+        UpdateDetectionSound();
+
+        if (captureCooldownTimer > 0f)
+        {
+            captureCooldownTimer -= Time.deltaTime;
+        }
 
         if (gameOver)
         {
@@ -67,7 +83,7 @@ public class GameManager : MonoBehaviour
                 Keyboard.current.rKey.wasPressedThisFrame)
             {
                 SceneManager.LoadScene(
-                    SceneManager.GetActiveScene().name);
+                    SceneManager.GetActiveScene().buildIndex);
             }
 
             return;
@@ -78,18 +94,33 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        battery = Mathf.Max(
-            0f,
-            battery - batteryDrainPerSecond * Time.deltaTime);
+        if (!recharging)
+        {
+            battery -=
+                batteryDrainPerSecond *
+                Time.deltaTime;
 
+            battery = Mathf.Clamp(
+                battery,
+                0f,
+                maxBattery);
+        }
+
+        // Press R happens only when the battery reaches zero.
         if (battery <= 0f)
         {
+            battery = 0f;
             gameOver = true;
+
+            StopDetectionSound();
             RefreshUI();
+
             return;
         }
 
-        if (detected)
+        if (detected &&
+            !hidden &&
+            captureCooldownTimer <= 0f)
         {
             detectionTimer += Time.deltaTime;
 
@@ -98,10 +129,6 @@ public class GameManager : MonoBehaviour
                 CapturePlayer();
                 return;
             }
-        }
-        else
-        {
-            detectionTimer = 0f;
         }
 
         if (captureMessageTimer > 0f)
@@ -121,56 +148,142 @@ public class GameManager : MonoBehaviour
 
         float targetAlpha = 0f;
 
-        if (detected)
+        if (detected && !hidden)
         {
             if (detectionTimer < flickerStartDelay)
             {
-                targetAlpha = detectedBorderAlpha;
+                targetAlpha = 0.65f;
             }
             else
             {
-                float flicker = Mathf.Abs(
-                    Mathf.Sin(Time.time * 12f));
+                float danger = Mathf.Clamp01(
+                    detectionTimer /
+                    captureDelay);
 
-                targetAlpha =
-                    detectedBorderAlpha * flicker;
+                float flickerSpeed = Mathf.Lerp(
+                    4f,
+                    18f,
+                    danger);
+
+                float flicker = Mathf.Abs(
+                    Mathf.Sin(
+                        Time.time *
+                        flickerSpeed));
+
+                targetAlpha = Mathf.Lerp(
+                    0.2f,
+                    0.85f,
+                    danger) * flicker;
             }
         }
         else if (detectionLingerTimer > 0f)
         {
-            float remaining = Mathf.Clamp01(
+            float lingerProgress = Mathf.Clamp01(
                 detectionLingerTimer /
                 detectionLingerDuration);
 
-            float slowFlicker = Mathf.Abs(
-                Mathf.Sin(Time.time * 3f));
+            float flickerSpeed = Mathf.Lerp(
+                3f,
+                10f,
+                1f - lingerProgress);
+
+            float flicker = Mathf.Abs(
+                Mathf.Sin(
+                    Time.time *
+                    flickerSpeed));
 
             targetAlpha =
-                0.35f * remaining * slowFlicker;
-
-            detectionLingerTimer -= Time.deltaTime;
+                lingerProgress *
+                0.65f *
+                flicker;
         }
 
-        Color borderColor = detectionBorder.color;
+        Color borderColor =
+            detectionBorder.color;
 
         borderColor.a = Mathf.MoveTowards(
             borderColor.a,
             targetAlpha,
-            detectionFadeSpeed * Time.deltaTime);
+            detectionFadeSpeed *
+            Time.deltaTime);
 
-        detectionBorder.color = borderColor;
+        detectionBorder.color =
+            borderColor;
+
+        if (detectionLingerTimer > 0f)
+        {
+            detectionLingerTimer -=
+                Time.deltaTime;
+        }
+    }
+
+    private void UpdateDetectionSound()
+    {
+        if (detectionWarningAudio == null ||
+            detectionWarningAudio.clip == null)
+        {
+            return;
+        }
+
+        bool shouldPlay =
+            detected &&
+            !hidden &&
+            !gameOver &&
+            !betaCompleted &&
+            captureCooldownTimer <= 0f;
+
+        if (shouldPlay)
+        {
+            if (!detectionWarningAudio.isPlaying)
+            {
+                detectionWarningAudio.Play();
+            }
+
+            float danger = Mathf.Clamp01(
+                detectionTimer /
+                captureDelay);
+
+            detectionWarningAudio.pitch =
+                Mathf.Lerp(
+                    1f,
+                    1.8f,
+                    danger);
+        }
+        else
+        {
+            StopDetectionSound();
+        }
+    }
+
+    private void StopDetectionSound()
+    {
+        if (detectionWarningAudio != null)
+        {
+            detectionWarningAudio.Stop();
+            detectionWarningAudio.pitch = 1f;
+        }
     }
 
     public void SetDetected(bool value)
     {
+        // Ignore detection briefly after respawning.
+        if (value &&
+            captureCooldownTimer > 0f)
+        {
+            return;
+        }
+
         if (value)
         {
-            if (!hidden)
+            // Reset only when detection begins.
+            if (!detected)
             {
-                detected = true;
-                detectionLingerTimer =
-                    detectionLingerDuration;
+                detectionTimer = 0f;
             }
+
+            detected = true;
+            hidden = false;
+            detectionLingerTimer = 0f;
         }
         else
         {
@@ -183,14 +296,6 @@ public class GameManager : MonoBehaviour
             detected = false;
             detectionTimer = 0f;
         }
-
-        RefreshUI();
-    }
-
-    public void SetRecharging(bool value)
-    {
-        recharging = value;
-        RefreshUI();
     }
 
     public void SetHidden(bool value)
@@ -199,69 +304,95 @@ public class GameManager : MonoBehaviour
 
         if (hidden)
         {
-            if (detected)
-            {
-                detectionLingerTimer =
-                    detectionLingerDuration;
-            }
-
             detected = false;
             detectionTimer = 0f;
-        }
+            detectionLingerTimer =
+                detectionLingerDuration;
 
-        RefreshUI();
+            StopDetectionSound();
+        }
+    }
+
+    public void SetRecharging(bool value)
+    {
+        recharging = value;
     }
 
     public void SetRewiringStatus(
         string message,
         bool active)
     {
-        rewiringMessage = message;
         rewiring = active;
-        RefreshUI();
+        rewiringMessage = message;
+    }
+
+    public void Recharge(float amount)
+    {
+        battery += amount;
+
+        battery = Mathf.Clamp(
+            battery,
+            0f,
+            maxBattery);
     }
 
     public void CompleteBeta()
     {
         betaCompleted = true;
-        RefreshUI();
-    }
+        detected = false;
+        hidden = false;
+        rewiring = false;
 
-    public void Recharge(float amount)
-    {
-        battery = Mathf.Min(
-            maxBattery,
-            battery + amount);
-
+        StopDetectionSound();
         RefreshUI();
     }
 
     private void CapturePlayer()
     {
+        // Reset detection only.
+        // The battery remains unchanged.
         detected = false;
         hidden = false;
         recharging = false;
-        rewiring = false;
 
         detectionTimer = 0f;
         detectionLingerTimer = 0f;
-        captureMessageTimer = captureMessageDuration;
+        captureMessageTimer =
+            captureMessageDuration;
 
-        if (player != null && spawnPoint != null)
+        captureCooldownTimer =
+            captureCooldown;
+
+        StopDetectionSound();
+
+        if (player == null ||
+            playerSpawnPoint == null)
         {
-            Rigidbody2D playerBody =
-                player.GetComponent<Rigidbody2D>();
+            Debug.LogWarning(
+                "Assign Player and Player Spawn Point " +
+                "in the GameManager Inspector.");
 
-            if (playerBody != null)
-            {
-                playerBody.linearVelocity = Vector2.zero;
-                playerBody.angularVelocity = 0f;
-                playerBody.position = spawnPoint.position;
-            }
-            else
-            {
-                player.position = spawnPoint.position;
-            }
+            RefreshUI();
+            return;
+        }
+
+        Rigidbody2D body =
+            player.GetComponent<Rigidbody2D>();
+
+        if (body != null)
+        {
+            body.position =
+                playerSpawnPoint.position;
+
+            body.linearVelocity =
+                Vector2.zero;
+
+            body.angularVelocity = 0f;
+        }
+        else
+        {
+            player.position =
+                playerSpawnPoint.position;
         }
 
         RefreshUI();
@@ -272,7 +403,7 @@ public class GameManager : MonoBehaviour
         if (batteryText != null)
         {
             batteryText.text =
-                $"BATTERY: {battery:0}%";
+                $"BATTERY: {Mathf.CeilToInt(battery)}%";
         }
 
         if (statusText == null)
@@ -294,17 +425,20 @@ public class GameManager : MonoBehaviour
         else if (captureMessageTimer > 0f)
         {
             statusText.text =
-                "YOU HAVE BEEN CAUGHT! " +
+                "YOU HAVE BEEN CAUGHT!\n" +
                 "Returning to checkpoint.";
         }
-        else if (detected)
+        else if (detected && !hidden)
         {
-            float remaining = Mathf.Max(
-                0f,
-                captureDelay - detectionTimer);
+            float remaining =
+                Mathf.Max(
+                    0f,
+                    captureDelay -
+                    detectionTimer);
 
             statusText.text =
-                $"DETECTED! Escape or hide: {remaining:0.0}s";
+                $"DETECTED! Escape or hide: " +
+                $"{remaining:0.0}s";
         }
         else if (hidden)
         {

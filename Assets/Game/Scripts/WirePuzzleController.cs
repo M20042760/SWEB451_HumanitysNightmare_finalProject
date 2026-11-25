@@ -9,6 +9,7 @@ public class WirePuzzleController : MonoBehaviour
     [SerializeField] private WireTile[] terminals;
     [SerializeField] private OfflineAI offlineAI;
     [SerializeField] private GameObject puzzlePanel;
+    [SerializeField] private EndingStoryController endingStoryController;
 
     [Header("Puzzle UI")]
     [SerializeField] private TMP_Text wiresText;
@@ -20,6 +21,10 @@ public class WirePuzzleController : MonoBehaviour
     [SerializeField] private int requiredWires = 3;
     [SerializeField] private float wireThickness = 12f;
     [SerializeField] private float puzzleTime = 30f;
+
+    [Header("Puzzle Timer Sound")]
+    [SerializeField] private AudioSource puzzleTimerAudio;
+    [SerializeField] private float timerWarningSeconds = 10f;
 
     private WireTile currentStart;
     private WireTile lastTile;
@@ -58,10 +63,15 @@ public class WirePuzzleController : MonoBehaviour
             wireLayer.SetAsLastSibling();
         }
 
-        // Hide the puzzle when the game begins.
         if (puzzlePanel != null)
         {
             puzzlePanel.SetActive(false);
+        }
+
+        if (puzzleTimerAudio != null)
+        {
+            puzzleTimerAudio.loop = true;
+            puzzleTimerAudio.playOnAwake = false;
         }
 
         ResetPuzzle();
@@ -74,8 +84,12 @@ public class WirePuzzleController : MonoBehaviour
             return;
         }
 
-        remainingTime -= Time.deltaTime;
+        // Unscaled time allows the puzzle timer to run
+        // while the puzzle pauses the rest of the game.
+        remainingTime -= Time.unscaledDeltaTime;
+
         UpdateTimerText();
+        UpdatePuzzleTimerSound();
 
         if (remainingTime <= 0f)
         {
@@ -91,11 +105,16 @@ public class WirePuzzleController : MonoBehaviour
         }
 
         ResetPuzzle();
+        Time.timeScale = 0f;
     }
 
     public void QuitPuzzle()
     {
         ClearTemporaryWire();
+        StopPuzzleTimerSound();
+
+        puzzleActive = false;
+        Time.timeScale = 1f;
 
         if (puzzlePanel != null)
         {
@@ -202,7 +221,8 @@ public class WirePuzzleController : MonoBehaviour
         WireTile secondTile,
         Color wireColor)
     {
-        if (wirePrefab == null || wireLayer == null)
+        if (wirePrefab == null ||
+            wireLayer == null)
         {
             Debug.LogWarning(
                 "Wire Prefab or Wire Layer is missing.");
@@ -210,7 +230,8 @@ public class WirePuzzleController : MonoBehaviour
             return;
         }
 
-        Image wire = Instantiate(wirePrefab, wireLayer);
+        Image wire =
+            Instantiate(wirePrefab, wireLayer);
 
         wire.gameObject.SetActive(true);
         wire.color = wireColor;
@@ -224,25 +245,37 @@ public class WirePuzzleController : MonoBehaviour
         RectTransform wireRect =
             wire.GetComponent<RectTransform>();
 
-        Vector3 firstPosition = firstRect.position;
-        Vector3 secondPosition = secondRect.position;
+        Vector3 firstPosition =
+            firstRect.position;
 
-        Vector3 direction = secondPosition - firstPosition;
-        float distance = direction.magnitude;
+        Vector3 secondPosition =
+            secondRect.position;
+
+        Vector3 direction =
+            secondPosition - firstPosition;
+
+        float distance =
+            direction.magnitude;
 
         float angle =
             Mathf.Atan2(
                 direction.y,
-                direction.x) * Mathf.Rad2Deg;
+                direction.x) *
+            Mathf.Rad2Deg;
 
         wireRect.position =
             (firstPosition + secondPosition) / 2f;
 
         wireRect.sizeDelta =
-            new Vector2(distance, wireThickness);
+            new Vector2(
+                distance,
+                wireThickness);
 
         wireRect.rotation =
-            Quaternion.Euler(0f, 0f, angle);
+            Quaternion.Euler(
+                0f,
+                0f,
+                angle);
 
         wire.transform.SetAsLastSibling();
 
@@ -275,7 +308,8 @@ public class WirePuzzleController : MonoBehaviour
         }
 
         Image[] wires =
-            wireLayer.GetComponentsInChildren<Image>(true);
+            wireLayer.GetComponentsInChildren<Image>(
+                true);
 
         foreach (Image wire in wires)
         {
@@ -294,6 +328,7 @@ public class WirePuzzleController : MonoBehaviour
     public void ResetPuzzle()
     {
         ClearAllWires();
+        StopPuzzleTimerSound();
 
         currentStart = null;
         lastTile = null;
@@ -313,12 +348,57 @@ public class WirePuzzleController : MonoBehaviour
         UpdateTimerText();
     }
 
+    private void UpdatePuzzleTimerSound()
+    {
+        if (puzzleTimerAudio == null ||
+            puzzleTimerAudio.clip == null)
+        {
+            return;
+        }
+
+        bool warning =
+            puzzleActive &&
+            !puzzleComplete &&
+            remainingTime <= timerWarningSeconds &&
+            remainingTime > 0f;
+
+        if (warning)
+        {
+            if (!puzzleTimerAudio.isPlaying)
+            {
+                puzzleTimerAudio.Play();
+            }
+
+            float danger =
+                1f - Mathf.Clamp01(
+                    remainingTime /
+                    timerWarningSeconds);
+
+            puzzleTimerAudio.pitch =
+                Mathf.Lerp(1f, 1.5f, danger);
+        }
+        else
+        {
+            StopPuzzleTimerSound();
+        }
+    }
+
+    private void StopPuzzleTimerSound()
+    {
+        if (puzzleTimerAudio != null)
+        {
+            puzzleTimerAudio.Stop();
+            puzzleTimerAudio.pitch = 1f;
+        }
+    }
+
     private void TimeExpired()
     {
         puzzleActive = false;
         drawingWire = false;
 
         ClearTemporaryWire();
+        StopPuzzleTimerSound();
 
         if (timerText != null)
         {
@@ -331,6 +411,8 @@ public class WirePuzzleController : MonoBehaviour
         puzzleComplete = true;
         puzzleActive = false;
 
+        StopPuzzleTimerSound();
+
         if (timerText != null)
         {
             timerText.text = "COMPLETE!";
@@ -341,9 +423,16 @@ public class WirePuzzleController : MonoBehaviour
             offlineAI.CompleteReprogramming();
         }
 
+        Time.timeScale = 1f;
+
         if (puzzlePanel != null)
         {
             puzzlePanel.SetActive(false);
+        }
+
+        if (endingStoryController != null)
+        {
+            endingStoryController.OpenEndingStory();
         }
 
         Debug.Log("Wire puzzle complete!");
