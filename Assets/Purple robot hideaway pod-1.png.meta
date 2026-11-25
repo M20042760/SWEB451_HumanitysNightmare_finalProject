@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: e8f137721708cbe4daceedd0473608a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4658742030022590656
+    second: Purple robot hideaway pod-1_0
+  - first:
+      213: -5355990157550849908
+    second: Purple robot hideaway pod-1_1
+  - first:
+      213: -4733391526438460194
+    second: Purple robot hideaway pod-1_2
+  - first:
+      213: -812216294514010689
+    second: Purple robot hideaway pod-1_3
+  - first:
+      213: 4796102545441409761
+    second: Purple robot hideaway pod-1_4
+  - first:
+      213: 6779191610678377090
+    second: Purple robot hideaway pod-1_5
+  - first:
+      213: 2131292526124225347
+    second: Purple robot hideaway pod-1_6
+  - first:
+      213: 5251609777182354149
+    second: Purple robot hideaway pod-1_7
+  - first:
+      213: -6745556390064422669
+    second: Purple robot hideaway pod-1_8
+  - first:
+      213: -8311011043783149366
+    second: Purple robot hideaway pod-1_9
+  - first:
+      213: 5517041807941795778
+    second: Purple robot hideaway pod-1_10
+  - first:
+      213: 3197249029531955828
+    second: Purple robot hideaway pod-1_11
+  - first:
+      213: -139679468047396959
+    second: Purple robot hideaway pod-1_12
+  - first:
+      213: -3769928330323432769
+    second: Purple robot hideaway pod-1_13
+  - first:
+      213: -2476001699263167416
+    second: Purple robot hideaway pod-1_14
+  - first:
+      213: 2941780569635329057
+    second: Purple robot hideaway pod-1_15
+  - first:
+      213: -4720450980637483480
+    second: Purple robot hideaway pod-1_16
+  - first:
+      213: -3114406255204988267
+    second: Purple robot hideaway pod-1_17
+  - first:
+      213: -5137234159845147768
+    second: Purple robot hideaway pod-1_18
+  - first:
+      213: -2804247740578070824
+    second: Purple robot hideaway pod-1_19
+  - first:
+      213: 3872538335144796577
+    second: Purple robot hideaway pod-1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 25
+        width: 1177
+        height: 1175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0cda7713d27a040800000000000000
+      internalID: 4658742030022590656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_1
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1140
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8071b63453bba5b0800000000000000
+      internalID: -5355990157550849908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_2
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1132
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4aacb3c7d9f4eb0800000000000000
+      internalID: -4733391526438460194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_3
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1141
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb555bc559d6ab4f0800000000000000
+      internalID: -812216294514010689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_4
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1138
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eac16faadd2f8240800000000000000
+      internalID: 4796102545441409761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 723
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28afaca2ad6841e50800000000000000
+      internalID: 6779191610678377090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_6
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 600
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343541ca24fd39d10800000000000000
+      internalID: 2131292526124225347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_7
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 572
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea2ce3a44771e840800000000000000
+      internalID: 5251609777182354149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_8
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 608
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f008d5e338f262a0800000000000000
+      internalID: -6745556390064422669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 585
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8f4f24d7b59ac80800000000000000
+      internalID: -8311011043783149366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_10
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 546
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf79553b48709c40800000000000000
+      internalID: 5517041807941795778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_11
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 409
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472f6b77d09ee5c20800000000000000
+      internalID: 3197249029531955828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_12
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 411
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af8e9c8342cf0ef0800000000000000
+      internalID: -139679468047396959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_13
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 361
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbae36258268eabc0800000000000000
+      internalID: -3769928330323432769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 345
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844c72ca29973add0800000000000000
+      internalID: -2476001699263167416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_15
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 312
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124924487dd43d820800000000000000
+      internalID: 2941780569635329057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 264
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e5577d7d69d7eb0800000000000000
+      internalID: -4720450980637483480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_17
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 89
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a8040030867c4d0800000000000000
+      internalID: -3114406255204988267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_18
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 85
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b7d66ffb0e4b8b0800000000000000
+      internalID: -5137234159845147768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_19
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 87
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8def6a8998f4519d0800000000000000
+      internalID: -2804247740578070824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple robot hideaway pod-1_20
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1636529150eb530800000000000000
+      internalID: 3872538335144796577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Purple robot hideaway pod-1_0: 4658742030022590656
+      Purple robot hideaway pod-1_1: -5355990157550849908
+      Purple robot hideaway pod-1_10: 5517041807941795778
+      Purple robot hideaway pod-1_11: 3197249029531955828
+      Purple robot hideaway pod-1_12: -139679468047396959
+      Purple robot hideaway pod-1_13: -3769928330323432769
+      Purple robot hideaway pod-1_14: -2476001699263167416
+      Purple robot hideaway pod-1_15: 2941780569635329057
+      Purple robot hideaway pod-1_16: -4720450980637483480
+      Purple robot hideaway pod-1_17: -3114406255204988267
+      Purple robot hideaway pod-1_18: -5137234159845147768
+      Purple robot hideaway pod-1_19: -2804247740578070824
+      Purple robot hideaway pod-1_2: -4733391526438460194
+      Purple robot hideaway pod-1_20: 3872538335144796577
+      Purple robot hideaway pod-1_3: -812216294514010689
+      Purple robot hideaway pod-1_4: 4796102545441409761
+      Purple robot hideaway pod-1_5: 6779191610678377090
+      Purple robot hideaway pod-1_6: 2131292526124225347
+      Purple robot hideaway pod-1_7: 5251609777182354149
+      Purple robot hideaway pod-1_8: -6745556390064422669
+      Purple robot hideaway pod-1_9: -8311011043783149366
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

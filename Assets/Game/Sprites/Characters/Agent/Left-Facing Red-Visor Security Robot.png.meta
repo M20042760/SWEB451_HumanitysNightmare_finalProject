@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: e2ddc9bb0d54f5c46a22d31515d53414
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5792733822624209715
+    second: Left-Facing Red-Visor Security Robot_0
+  - first:
+      213: -1186362601549834817
+    second: Left-Facing Red-Visor Security Robot_1
+  - first:
+      213: 1919971830435011825
+    second: Left-Facing Red-Visor Security Robot_2
+  - first:
+      213: -8941781710855236161
+    second: Left-Facing Red-Visor Security Robot_3
+  - first:
+      213: -5547701304194103313
+    second: Left-Facing Red-Visor Security Robot_4
+  - first:
+      213: 3967315012289488383
+    second: Left-Facing Red-Visor Security Robot_5
+  - first:
+      213: -736710420437474148
+    second: Left-Facing Red-Visor Security Robot_6
+  - first:
+      213: 8913402816240200649
+    second: Left-Facing Red-Visor Security Robot_7
+  - first:
+      213: 1865266466489057334
+    second: Left-Facing Red-Visor Security Robot_8
+  - first:
+      213: 1990220687855632107
+    second: Left-Facing Red-Visor Security Robot_9
+  - first:
+      213: -3439579349840276534
+    second: Left-Facing Red-Visor Security Robot_10
+  - first:
+      213: -5959003975382390379
+    second: Left-Facing Red-Visor Security Robot_11
+  - first:
+      213: -2510907412612838487
+    second: Left-Facing Red-Visor Security Robot_12
+  - first:
+      213: 4320208556979321152
+    second: Left-Facing Red-Visor Security Robot_13
+  - first:
+      213: 1211823854029896607
+    second: Left-Facing Red-Visor Security Robot_14
+  - first:
+      213: -2386513987672084900
+    second: Left-Facing Red-Visor Security Robot_15
+  - first:
+      213: 3821778834558830059
+    second: Left-Facing Red-Visor Security Robot_16
+  - first:
+      213: -5770306830359108429
+    second: Left-Facing Red-Visor Security Robot_17
+  - first:
+      213: 7215121810266631601
+    second: Left-Facing Red-Visor Security Robot_18
+  - first:
+      213: -8054572184609578456
+    second: Left-Facing Red-Visor Security Robot_19
+  - first:
+      213: -3225364193156835793
+    second: Left-Facing Red-Visor Security Robot_20
+  - first:
+      213: 5146137660390481422
+    second: Left-Facing Red-Visor Security Robot_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 1443
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b18ef68bce36050800000000000000
+      internalID: 5792733822624209715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_1
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 897
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb550dfdf71398fe0800000000000000
+      internalID: -1186362601549834817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_2
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 635
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcd5d3153c15aa10800000000000000
+      internalID: 1919971830435011825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_3
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 647
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb59369d8e868e380800000000000000
+      internalID: -8941781710855236161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_4
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 633
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe70a8b8e0b9203b0800000000000000
+      internalID: -5547701304194103313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 535
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5e693ebfbbe0730800000000000000
+      internalID: 3967315012289488383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_6
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 559
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94ee7f96cda6c5f0800000000000000
+      internalID: -736710420437474148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_7
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 529
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cba6f9d2a4c2bb70800000000000000
+      internalID: 8913402816240200649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 455
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630478af7f1c2e910800000000000000
+      internalID: 1865266466489057334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_9
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 391
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beeb444cb2fae9b10800000000000000
+      internalID: 1990220687855632107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 269
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac350041ec82440d0800000000000000
+      internalID: -3439579349840276534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 253
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5992130e47d5d4da0800000000000000
+      internalID: -5959003975382390379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_12
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 238
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab0157f207772dd0800000000000000
+      internalID: -2510907412612838487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 207
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049fa5a0bc674fb30800000000000000
+      internalID: 4320208556979321152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_14
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 61
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bfbcdef5341d010800000000000000
+      internalID: 1211823854029896607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_15
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 71
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5eed492c2661eed0800000000000000
+      internalID: -2386513987672084900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_16
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 53
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be54cf3f99fa90530800000000000000
+      internalID: 3821778834558830059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_17
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 44
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b46f6b9280cbefa0800000000000000
+      internalID: -5770306830359108429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 55
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdad102f03412460800000000000000
+      internalID: 7215121810266631601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_19
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 47
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822aa96e549683090800000000000000
+      internalID: -8054572184609578456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_20
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 31
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f265f93ea543d33d0800000000000000
+      internalID: -3225364193156835793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left-Facing Red-Visor Security Robot_21
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 31
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e95dccfe0ca6740800000000000000
+      internalID: 5146137660390481422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Left-Facing Red-Visor Security Robot_0: 5792733822624209715
+      Left-Facing Red-Visor Security Robot_1: -1186362601549834817
+      Left-Facing Red-Visor Security Robot_10: -3439579349840276534
+      Left-Facing Red-Visor Security Robot_11: -5959003975382390379
+      Left-Facing Red-Visor Security Robot_12: -2510907412612838487
+      Left-Facing Red-Visor Security Robot_13: 4320208556979321152
+      Left-Facing Red-Visor Security Robot_14: 1211823854029896607
+      Left-Facing Red-Visor Security Robot_15: -2386513987672084900
+      Left-Facing Red-Visor Security Robot_16: 3821778834558830059
+      Left-Facing Red-Visor Security Robot_17: -5770306830359108429
+      Left-Facing Red-Visor Security Robot_18: 7215121810266631601
+      Left-Facing Red-Visor Security Robot_19: -8054572184609578456
+      Left-Facing Red-Visor Security Robot_2: 1919971830435011825
+      Left-Facing Red-Visor Security Robot_20: -3225364193156835793
+      Left-Facing Red-Visor Security Robot_21: 5146137660390481422
+      Left-Facing Red-Visor Security Robot_3: -8941781710855236161
+      Left-Facing Red-Visor Security Robot_4: -5547701304194103313
+      Left-Facing Red-Visor Security Robot_5: 3967315012289488383
+      Left-Facing Red-Visor Security Robot_6: -736710420437474148
+      Left-Facing Red-Visor Security Robot_7: 8913402816240200649
+      Left-Facing Red-Visor Security Robot_8: 1865266466489057334
+      Left-Facing Red-Visor Security Robot_9: 1990220687855632107
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

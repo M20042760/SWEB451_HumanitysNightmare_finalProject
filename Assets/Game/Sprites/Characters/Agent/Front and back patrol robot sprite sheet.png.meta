@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 40dc3df67ffc65344a502bcbcd82fd59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3283003051869408359
+    second: Front and back patrol robot sprite sheet_0
+  - first:
+      213: -2402042967141626088
+    second: Front and back patrol robot sprite sheet_1
+  - first:
+      213: -8713852678228812086
+    second: Front and back patrol robot sprite sheet_2
+  - first:
+      213: 1480216450500351861
+    second: Front and back patrol robot sprite sheet_3
+  - first:
+      213: 5352553532975190922
+    second: Front and back patrol robot sprite sheet_4
+  - first:
+      213: 6368236380205279524
+    second: Front and back patrol robot sprite sheet_5
+  - first:
+      213: 4636820717569578248
+    second: Front and back patrol robot sprite sheet_6
+  - first:
+      213: -1836672810459097017
+    second: Front and back patrol robot sprite sheet_7
+  - first:
+      213: 5382259059440039911
+    second: Front and back patrol robot sprite sheet_8
+  - first:
+      213: -7610345312583933914
+    second: Front and back patrol robot sprite sheet_9
+  - first:
+      213: 8116049026244887160
+    second: Front and back patrol robot sprite sheet_10
+  - first:
+      213: 865482778497023006
+    second: Front and back patrol robot sprite sheet_11
+  - first:
+      213: 5560636491417852083
+    second: Front and back patrol robot sprite sheet_12
+  - first:
+      213: 1533267998209454976
+    second: Front and back patrol robot sprite sheet_13
+  - first:
+      213: 7356893881698256555
+    second: Front and back patrol robot sprite sheet_14
+  - first:
+      213: -8345452082088644747
+    second: Front and back patrol robot sprite sheet_15
+  - first:
+      213: 6434571751174255334
+    second: Front and back patrol robot sprite sheet_16
+  - first:
+      213: 7140298063699360334
+    second: Front and back patrol robot sprite sheet_17
+  - first:
+      213: 9092306147360413403
+    second: Front and back patrol robot sprite sheet_18
+  - first:
+      213: 7490013304477540358
+    second: Front and back patrol robot sprite sheet_19
+  - first:
+      213: -185825542962304100
+    second: Front and back patrol robot sprite sheet_20
+  - first:
+      213: -1797588835996740288
+    second: Front and back patrol robot sprite sheet_21
+  - first:
+      213: 8577085234990014617
+    second: Front and back patrol robot sprite sheet_22
+  - first:
+      213: -8318446373882688316
+    second: Front and back patrol robot sprite sheet_23
+  - first:
+      213: 6358931757734094756
+    second: Front and back patrol robot sprite sheet_24
+  - first:
+      213: -4712423034473322525
+    second: Front and back patrol robot sprite sheet_25
+  - first:
+      213: -4158244071215111947
+    second: Front and back patrol robot sprite sheet_26
+  - first:
+      213: 1967567627064845844
+    second: Front and back patrol robot sprite sheet_27
+  - first:
+      213: -5938670274800337955
+    second: Front and back patrol robot sprite sheet_28
+  - first:
+      213: -4172077928433258680
+    second: Front and back patrol robot sprite sheet_29
+  - first:
+      213: -58425129718217086
+    second: Front and back patrol robot sprite sheet_30
+  - first:
+      213: 7345033130393059193
+    second: Front and back patrol robot sprite sheet_31
+  - first:
+      213: -3867968412342147717
+    second: Front and back patrol robot sprite sheet_32
+  - first:
+      213: 1739096944592451922
+    second: Front and back patrol robot sprite sheet_33
+  - first:
+      213: -345874519786394039
+    second: Front and back patrol robot sprite sheet_34
+  - first:
+      213: 4212767951212030700
+    second: Front and back patrol robot sprite sheet_35
+  - first:
+      213: 205612622352610039
+    second: Front and back patrol robot sprite sheet_36
+  - first:
+      213: -7490023558865397858
+    second: Front and back patrol robot sprite sheet_37
+  - first:
+      213: 2734119474933867987
+    second: Front and back patrol robot sprite sheet_38
+  - first:
+      213: 5445033234141639328
+    second: Front and back patrol robot sprite sheet_39
+  - first:
+      213: -8299379862087461800
+    second: Front and back patrol robot sprite sheet_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 794
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c033fa1e19f8d20800000000000000
+      internalID: 3283003051869408359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 789
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f4c40e5aa3aaed0800000000000000
+      internalID: -2402042967141626088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 767
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aced519382d221780800000000000000
+      internalID: -8713852678228812086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 700
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57753cae409ca8410800000000000000
+      internalID: 1480216450500351861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 582
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a839f364417184a40800000000000000
+      internalID: 5352553532975190922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 537
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429ead75f35806850800000000000000
+      internalID: 6368236380205279524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 563
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80518ed20eb495040800000000000000
+      internalID: 4636820717569578248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 509
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74897fb5fc3d286e0800000000000000
+      internalID: -1836672810459097017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 513
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e73d0f1910a1ba40800000000000000
+      internalID: 5382259059440039911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 503
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6202061724f926690800000000000000
+      internalID: -7610345312583933914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 467
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8724bf4b69ff1a070800000000000000
+      internalID: 8116049026244887160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 489
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c78836000d20c00800000000000000
+      internalID: 865482778497023006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 479
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8190c6d695b2d40800000000000000
+      internalID: 5560636491417852083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 470
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083bfbaee13474510800000000000000
+      internalID: 1533267998209454976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 402
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba68ed4c100f81660800000000000000
+      internalID: 7356893881698256555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 469
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fef052c8ffe2c80800000000000000
+      internalID: -8345452082088644747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 442
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e231867ae03c4950800000000000000
+      internalID: 6434571751174255334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 449
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ab53d024f671360800000000000000
+      internalID: 7140298063699360334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 418
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd69486944c5e2e70800000000000000
+      internalID: 9092306147360413403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 394
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6006558aa6fd1f760800000000000000
+      internalID: 7490013304477540358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 378
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ba98937a0db6df0800000000000000
+      internalID: -185825542962304100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 378
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045d43a4a7ead07e0800000000000000
+      internalID: -1797588835996740288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 241
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990e3dfe39de70770800000000000000
+      internalID: 8577085234990014617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 277
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc06919811fe8c80800000000000000
+      internalID: -8318446373882688316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 273
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7e0ba1eb67f3850800000000000000
+      internalID: 6358931757734094756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 201
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e769d6b73c1a9eb0800000000000000
+      internalID: -4712423034473322525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 225
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f069dd6c03fa46c0800000000000000
+      internalID: -4158244071215111947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 233
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41622ca05543e4b10800000000000000
+      internalID: 1967567627064845844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 176
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbba5879da959da0800000000000000
+      internalID: -5938670274800337955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 162
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fec7c8a3dc916c0800000000000000
+      internalID: -4172077928433258680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286803177ae603ff0800000000000000
+      internalID: -58425129718217086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 80
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fbd8867bccee560800000000000000
+      internalID: 7345033130393059193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 61
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b752aebe837325ac0800000000000000
+      internalID: -3867968412342147717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 48
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259766cf473822810800000000000000
+      internalID: 1739096944592451922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 47
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ee54fe4f4333bf0800000000000000
+      internalID: -345874519786394039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 49
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaa425a122c67a30800000000000000
+      internalID: 4212767951212030700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 47
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2f9a4379b7ad200800000000000000
+      internalID: 205612622352610039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 19
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97558ec1471e0890800000000000000
+      internalID: -7490023558865397858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 17
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d529ec2d2b81f520800000000000000
+      internalID: 2734119474933867987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 17
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2753f90e4a09b40800000000000000
+      internalID: 5445033234141639328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front and back patrol robot sprite sheet_40
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 17
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8541f38ccfda2dc80800000000000000
+      internalID: -8299379862087461800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Front and back patrol robot sprite sheet_0: 3283003051869408359
+      Front and back patrol robot sprite sheet_1: -2402042967141626088
+      Front and back patrol robot sprite sheet_10: 8116049026244887160
+      Front and back patrol robot sprite sheet_11: 865482778497023006
+      Front and back patrol robot sprite sheet_12: 5560636491417852083
+      Front and back patrol robot sprite sheet_13: 1533267998209454976
+      Front and back patrol robot sprite sheet_14: 7356893881698256555
+      Front and back patrol robot sprite sheet_15: -8345452082088644747
+      Front and back patrol robot sprite sheet_16: 6434571751174255334
+      Front and back patrol robot sprite sheet_17: 7140298063699360334
+      Front and back patrol robot sprite sheet_18: 9092306147360413403
+      Front and back patrol robot sprite sheet_19: 7490013304477540358
+      Front and back patrol robot sprite sheet_2: -8713852678228812086
+      Front and back patrol robot sprite sheet_20: -185825542962304100
+      Front and back patrol robot sprite sheet_21: -1797588835996740288
+      Front and back patrol robot sprite sheet_22: 8577085234990014617
+      Front and back patrol robot sprite sheet_23: -8318446373882688316
+      Front and back patrol robot sprite sheet_24: 6358931757734094756
+      Front and back patrol robot sprite sheet_25: -4712423034473322525
+      Front and back patrol robot sprite sheet_26: -4158244071215111947
+      Front and back patrol robot sprite sheet_27: 1967567627064845844
+      Front and back patrol robot sprite sheet_28: -5938670274800337955
+      Front and back patrol robot sprite sheet_29: -4172077928433258680
+      Front and back patrol robot sprite sheet_3: 1480216450500351861
+      Front and back patrol robot sprite sheet_30: -58425129718217086
+      Front and back patrol robot sprite sheet_31: 7345033130393059193
+      Front and back patrol robot sprite sheet_32: -3867968412342147717
+      Front and back patrol robot sprite sheet_33: 1739096944592451922
+      Front and back patrol robot sprite sheet_34: -345874519786394039
+      Front and back patrol robot sprite sheet_35: 4212767951212030700
+      Front and back patrol robot sprite sheet_36: 205612622352610039
+      Front and back patrol robot sprite sheet_37: -7490023558865397858
+      Front and back patrol robot sprite sheet_38: 2734119474933867987
+      Front and back patrol robot sprite sheet_39: 5445033234141639328
+      Front and back patrol robot sprite sheet_4: 5352553532975190922
+      Front and back patrol robot sprite sheet_40: -8299379862087461800
+      Front and back patrol robot sprite sheet_5: 6368236380205279524
+      Front and back patrol robot sprite sheet_6: 4636820717569578248
+      Front and back patrol robot sprite sheet_7: -1836672810459097017
+      Front and back patrol robot sprite sheet_8: 5382259059440039911
+      Front and back patrol robot sprite sheet_9: -7610345312583933914
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

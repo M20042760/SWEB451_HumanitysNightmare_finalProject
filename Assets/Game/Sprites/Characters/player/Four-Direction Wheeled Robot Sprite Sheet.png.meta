@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 91e835cbe0a301c4eaf4a6b27443f49d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 722960757601932976
+    second: Four-Direction Wheeled Robot Sprite Sheet_0
+  - first:
+      213: -6302313909301123754
+    second: Four-Direction Wheeled Robot Sprite Sheet_1
+  - first:
+      213: 2178635109094395870
+    second: Four-Direction Wheeled Robot Sprite Sheet_2
+  - first:
+      213: 6715737539364233711
+    second: Four-Direction Wheeled Robot Sprite Sheet_3
+  - first:
+      213: -3705318765893063949
+    second: Four-Direction Wheeled Robot Sprite Sheet_4
+  - first:
+      213: -8408894935590328345
+    second: Four-Direction Wheeled Robot Sprite Sheet_5
+  - first:
+      213: -2971304899117687942
+    second: Four-Direction Wheeled Robot Sprite Sheet_6
+  - first:
+      213: 7380172062897337998
+    second: Four-Direction Wheeled Robot Sprite Sheet_7
+  - first:
+      213: -7185973176430980330
+    second: Four-Direction Wheeled Robot Sprite Sheet_8
+  - first:
+      213: -7230676963540299961
+    second: Four-Direction Wheeled Robot Sprite Sheet_9
+  - first:
+      213: 2543363853456907156
+    second: Four-Direction Wheeled Robot Sprite Sheet_10
+  - first:
+      213: 3239605980292407742
+    second: Four-Direction Wheeled Robot Sprite Sheet_11
+  - first:
+      213: 1791744278616480062
+    second: Four-Direction Wheeled Robot Sprite Sheet_12
+  - first:
+      213: 5460850161271374311
+    second: Four-Direction Wheeled Robot Sprite Sheet_13
+  - first:
+      213: 7752909206529113378
+    second: Four-Direction Wheeled Robot Sprite Sheet_14
+  - first:
+      213: -1729502152200676331
+    second: Four-Direction Wheeled Robot Sprite Sheet_15
+  - first:
+      213: -7228872038421942955
+    second: Four-Direction Wheeled Robot Sprite Sheet_16
+  - first:
+      213: 620635387654614649
+    second: Four-Direction Wheeled Robot Sprite Sheet_17
+  - first:
+      213: -7009211236820989465
+    second: Four-Direction Wheeled Robot Sprite Sheet_18
+  - first:
+      213: -1745470040872245348
+    second: Four-Direction Wheeled Robot Sprite Sheet_19
+  - first:
+      213: -8153247480527794746
+    second: Four-Direction Wheeled Robot Sprite Sheet_20
+  - first:
+      213: 1588298001207219548
+    second: Four-Direction Wheeled Robot Sprite Sheet_21
+  - first:
+      213: 4803305015077975419
+    second: Four-Direction Wheeled Robot Sprite Sheet_22
+  - first:
+      213: 6523863232841577050
+    second: Four-Direction Wheeled Robot Sprite Sheet_23
+  - first:
+      213: 717109153724455554
+    second: Four-Direction Wheeled Robot Sprite Sheet_24
+  - first:
+      213: -7294890711472149643
+    second: Four-Direction Wheeled Robot Sprite Sheet_25
+  - first:
+      213: 5937320922492626208
+    second: Four-Direction Wheeled Robot Sprite Sheet_26
+  - first:
+      213: 1126253136220539712
+    second: Four-Direction Wheeled Robot Sprite Sheet_27
+  - first:
+      213: 5535916199871526897
+    second: Four-Direction Wheeled Robot Sprite Sheet_28
+  - first:
+      213: 9193010109515534998
+    second: Four-Direction Wheeled Robot Sprite Sheet_29
+  - first:
+      213: -6629836106573025089
+    second: Four-Direction Wheeled Robot Sprite Sheet_30
+  - first:
+      213: -666675658817963403
+    second: Four-Direction Wheeled Robot Sprite Sheet_31
+  - first:
+      213: 1740272268829398309
+    second: Four-Direction Wheeled Robot Sprite Sheet_32
+  - first:
+      213: -2686087361679905783
+    second: Four-Direction Wheeled Robot Sprite Sheet_33
+  - first:
+      213: -1356138939180554120
+    second: Four-Direction Wheeled Robot Sprite Sheet_34
+  - first:
+      213: -2838602009525330102
+    second: Four-Direction Wheeled Robot Sprite Sheet_35
+  - first:
+      213: -3036550091492007979
+    second: Four-Direction Wheeled Robot Sprite Sheet_36
+  - first:
+      213: -6471193162827761487
+    second: Four-Direction Wheeled Robot Sprite Sheet_37
+  - first:
+      213: -5025228508745998213
+    second: Four-Direction Wheeled Robot Sprite Sheet_38
+  - first:
+      213: 4868938336152916173
+    second: Four-Direction Wheeled Robot Sprite Sheet_39
+  - first:
+      213: -6840420100950165252
+    second: Four-Direction Wheeled Robot Sprite Sheet_40
+  - first:
+      213: 1487244671699781043
+    second: Four-Direction Wheeled Robot Sprite Sheet_41
+  - first:
+      213: 7819331510001020372
+    second: Four-Direction Wheeled Robot Sprite Sheet_42
+  - first:
+      213: 4517905237484186098
+    second: Four-Direction Wheeled Robot Sprite Sheet_43
+  - first:
+      213: -7037557065110908165
+    second: Four-Direction Wheeled Robot Sprite Sheet_44
+  - first:
+      213: 1551373368170647754
+    second: Four-Direction Wheeled Robot Sprite Sheet_45
+  - first:
+      213: -3906222111264692720
+    second: Four-Direction Wheeled Robot Sprite Sheet_46
+  - first:
+      213: 1043923280567890209
+    second: Four-Direction Wheeled Robot Sprite Sheet_47
+  - first:
+      213: -6065112164803819982
+    second: Four-Direction Wheeled Robot Sprite Sheet_48
+  - first:
+      213: 2422955627054125929
+    second: Four-Direction Wheeled Robot Sprite Sheet_49
+  - first:
+      213: 7375795516001568092
+    second: Four-Direction Wheeled Robot Sprite Sheet_50
+  - first:
+      213: -867358276083856340
+    second: Four-Direction Wheeled Robot Sprite Sheet_51
+  - first:
+      213: -3826494585647999343
+    second: Four-Direction Wheeled Robot Sprite Sheet_52
+  - first:
+      213: -5999714025231883630
+    second: Four-Direction Wheeled Robot Sprite Sheet_53
+  - first:
+      213: -4247048295345535759
+    second: Four-Direction Wheeled Robot Sprite Sheet_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Four-Direction Wheeled Robot Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 623
+        width: 631
+        height: 623
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b619678af8780a00800000000000000
+      internalID: 722960757601932976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four-Direction Wheeled Robot Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 623
+        width: 631
+        height: 623
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6556a1df3eea988a0800000000000000
+      internalID: -6302313909301123754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four-Direction Wheeled Robot Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 631
+        height: 623
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf04ccb6111c3e10800000000000000
+      internalID: 2178635109094395870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Four-Direction Wheeled Robot Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 0
+        width: 631
+        height: 623
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1af86e5b7133d50800000000000000
+      internalID: 6715737539364233711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":631.0,"y":623.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Four-Direction Wheeled Robot Sprite Sheet_0: 722960757601932976
+      Four-Direction Wheeled Robot Sprite Sheet_1: -6302313909301123754
+      Four-Direction Wheeled Robot Sprite Sheet_2: 2178635109094395870
+      Four-Direction Wheeled Robot Sprite Sheet_3: 6715737539364233711
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

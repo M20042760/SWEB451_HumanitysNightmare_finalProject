@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 3d6404ec659c5f64ab7c54cda715c8e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1418243231737791058
+    second: Powered-Down Pixel Server Core_0
+  - first:
+      213: 7096825103009460018
+    second: Powered-Down Pixel Server Core_1
+  - first:
+      213: -8758356319713152813
+    second: Powered-Down Pixel Server Core_2
+  - first:
+      213: 1031999341270921165
+    second: Powered-Down Pixel Server Core_3
+  - first:
+      213: -1181221139798164540
+    second: Powered-Down Pixel Server Core_4
+  - first:
+      213: 4208149998949259608
+    second: Powered-Down Pixel Server Core_5
+  - first:
+      213: 6661203855125106996
+    second: Powered-Down Pixel Server Core_6
+  - first:
+      213: -5431316269262059114
+    second: Powered-Down Pixel Server Core_7
+  - first:
+      213: -3257625228814394406
+    second: Powered-Down Pixel Server Core_8
+  - first:
+      213: 1223327266720567593
+    second: Powered-Down Pixel Server Core_9
+  - first:
+      213: -7561114226582896080
+    second: Powered-Down Pixel Server Core_10
+  - first:
+      213: 7016208414739853734
+    second: Powered-Down Pixel Server Core_11
+  - first:
+      213: -4774159214355455546
+    second: Powered-Down Pixel Server Core_12
+  - first:
+      213: -5130798686927503641
+    second: Powered-Down Pixel Server Core_13
+  - first:
+      213: 5695701378088490846
+    second: Powered-Down Pixel Server Core_14
+  - first:
+      213: -7864552408083587936
+    second: Powered-Down Pixel Server Core_15
+  - first:
+      213: 1920055944000738294
+    second: Powered-Down Pixel Server Core_16
+  - first:
+      213: -9026841184929964351
+    second: Powered-Down Pixel Server Core_17
+  - first:
+      213: -7900850233233479141
+    second: Powered-Down Pixel Server Core_18
+  - first:
+      213: -6884143354352938344
+    second: Powered-Down Pixel Server Core_19
+  - first:
+      213: -6260312872542904125
+    second: Powered-Down Pixel Server Core_20
+  - first:
+      213: -123555262000097585
+    second: Powered-Down Pixel Server Core_21
+  - first:
+      213: 1896445719317467009
+    second: Powered-Down Pixel Server Core_22
+  - first:
+      213: -6530117492311798933
+    second: Powered-Down Pixel Server Core_23
+  - first:
+      213: 5711540828326385845
+    second: Powered-Down Pixel Server Core_24
+  - first:
+      213: -3103282476360733481
+    second: Powered-Down Pixel Server Core_25
+  - first:
+      213: 4930388036319551650
+    second: Powered-Down Pixel Server Core_26
+  - first:
+      213: -1363216987254197424
+    second: Powered-Down Pixel Server Core_27
+  - first:
+      213: -3393430060052563253
+    second: Powered-Down Pixel Server Core_28
+  - first:
+      213: 411027958029280643
+    second: Powered-Down Pixel Server Core_29
+  - first:
+      213: -1295009478048409566
+    second: Powered-Down Pixel Server Core_30
+  - first:
+      213: 8933467858673103852
+    second: Powered-Down Pixel Server Core_31
+  - first:
+      213: -7042948749736666410
+    second: Powered-Down Pixel Server Core_32
+  - first:
+      213: -6277676442633316997
+    second: Powered-Down Pixel Server Core_33
+  - first:
+      213: -6721396252681428808
+    second: Powered-Down Pixel Server Core_34
+  - first:
+      213: -6590917483078701579
+    second: Powered-Down Pixel Server Core_35
+  - first:
+      213: 880637383447497029
+    second: Powered-Down Pixel Server Core_36
+  - first:
+      213: 9187669052035842659
+    second: Powered-Down Pixel Server Core_37
+  - first:
+      213: 674033011395082961
+    second: Powered-Down Pixel Server Core_38
+  - first:
+      213: 3720489972786667961
+    second: Powered-Down Pixel Server Core_39
+  - first:
+      213: -6412413100719421445
+    second: Powered-Down Pixel Server Core_40
+  - first:
+      213: 8758731893343809803
+    second: Powered-Down Pixel Server Core_41
+  - first:
+      213: -1666388996990753557
+    second: Powered-Down Pixel Server Core_42
+  - first:
+      213: -5898318154213914460
+    second: Powered-Down Pixel Server Core_43
+  - first:
+      213: -4731122930691093709
+    second: Powered-Down Pixel Server Core_44
+  - first:
+      213: 7675281633168928225
+    second: Powered-Down Pixel Server Core_45
+  - first:
+      213: 7225949317779302144
+    second: Powered-Down Pixel Server Core_46
+  - first:
+      213: 894642422569431720
+    second: Powered-Down Pixel Server Core_47
+  - first:
+      213: -4352934246221465710
+    second: Powered-Down Pixel Server Core_48
+  - first:
+      213: -7527219358662806711
+    second: Powered-Down Pixel Server Core_49
+  - first:
+      213: 2278755943380895932
+    second: Powered-Down Pixel Server Core_50
+  - first:
+      213: -8376263202491510166
+    second: Powered-Down Pixel Server Core_51
+  - first:
+      213: -8182149450410473974
+    second: Powered-Down Pixel Server Core_52
+  - first:
+      213: -8691662836448703718
+    second: Powered-Down Pixel Server Core_53
+  - first:
+      213: 5319630732570784753
+    second: Powered-Down Pixel Server Core_54
+  - first:
+      213: 8570252111468355047
+    second: Powered-Down Pixel Server Core_55
+  - first:
+      213: 6194071830652805417
+    second: Powered-Down Pixel Server Core_56
+  - first:
+      213: 6782846553036806978
+    second: Powered-Down Pixel Server Core_57
+  - first:
+      213: -8683412107840095043
+    second: Powered-Down Pixel Server Core_58
+  - first:
+      213: 6301716710426776039
+    second: Powered-Down Pixel Server Core_59
+  - first:
+      213: -3860830321964727840
+    second: Powered-Down Pixel Server Core_60
+  - first:
+      213: -2642444935836981860
+    second: Powered-Down Pixel Server Core_61
+  - first:
+      213: 3022825196450224730
+    second: Powered-Down Pixel Server Core_62
+  - first:
+      213: -8846087647217166224
+    second: Powered-Down Pixel Server Core_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_0
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1114
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25245d084bc9ea310800000000000000
+      internalID: 1418243231737791058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_1
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1136
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f24f1a4dcfc7260800000000000000
+      internalID: 7096825103009460018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_2
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1083
+        width: 151
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0333bb451147680800000000000000
+      internalID: -8758356319713152813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_3
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1122
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfe3e0eee5625e00800000000000000
+      internalID: 1031999341270921165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_4
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1148
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbf529b1a57b9fe0800000000000000
+      internalID: -1181221139798164540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_5
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1131
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8595ee8d02a566a30800000000000000
+      internalID: 4208149998949259608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_6
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1091
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431d1391d99517c50800000000000000
+      internalID: 6661203855125106996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_7
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1129
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699c5d321a610a4b0800000000000000
+      internalID: -5431316269262059114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_8
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1122
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbda213d179ac2d0800000000000000
+      internalID: -3257625228814394406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_9
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1099
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921dde8eaa12af010800000000000000
+      internalID: 1223327266720567593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1075
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032cf52eba6811790800000000000000
+      internalID: -7561114226582896080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_11
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1113
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1fca631649e5160800000000000000
+      internalID: 7016208414739853734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_12
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1085
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c16f273d77cebdb0800000000000000
+      internalID: -4774159214355455546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1089
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee35a347cdbbc8b0800000000000000
+      internalID: -5130798686927503641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_14
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1099
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57daabe9323b0f40800000000000000
+      internalID: 5695701378088490846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 1043
+        height: 1085
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac1cb6c04f7bd290800000000000000
+      internalID: -7864552408083587936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_16
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1085
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f39a0b45b865aa10800000000000000
+      internalID: 1920055944000738294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 946
+        width: 123
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce1260c4c73ab280800000000000000
+      internalID: -9026841184929964351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 800
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a6e88c29a8a5290800000000000000
+      internalID: -7900850233233479141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 832
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8925decc71c9670a0800000000000000
+      internalID: -6884143354352938344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_20
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 826
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c066496c96ee19a0800000000000000
+      internalID: -6260312872542904125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_21
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 848
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc69a52d42b094ef0800000000000000
+      internalID: -123555262000097585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 410
+        width: 173
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f4abb7557815a10800000000000000
+      internalID: 1896445719317467009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_23
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 714
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bc0312dbc5065a0800000000000000
+      internalID: -6530117492311798933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_24
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 770
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8d8805f18734f40800000000000000
+      internalID: 5711540828326385845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_25
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 779
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dce2d6970deee4d0800000000000000
+      internalID: -3103282476360733481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_26
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 711
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0a9a5fbc14c6440800000000000000
+      internalID: 4930388036319551650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_27
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 738
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0537fea6f51e41de0800000000000000
+      internalID: -1363216987254197424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_28
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 693
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca3f6ce65d18e0d0800000000000000
+      internalID: -3393430060052563253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_29
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 670
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385e61700c344b500800000000000000
+      internalID: 411027958029280643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_30
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 680
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2281920bdb3370ee0800000000000000
+      internalID: -1295009478048409566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 654
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce374989fad0afb70800000000000000
+      internalID: 8933467858673103852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_32
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 596
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da1aa06d6b624e90800000000000000
+      internalID: -7042948749736666410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_33
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 655
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75d006398631e8a0800000000000000
+      internalID: -6277676442633316997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_34
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 589
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0284c38bdc8b2a0800000000000000
+      internalID: -6721396252681428808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_35
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 590
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdae25287b5884a0800000000000000
+      internalID: -6590917483078701579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_36
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 564
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5494150d807a83c00800000000000000
+      internalID: 880637383447497029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_37
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 553
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36242701358218f70800000000000000
+      internalID: 9187669052035842659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_38
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 507
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da3713e375aa5900800000000000000
+      internalID: 674033011395082961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_39
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 533
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b12a521be5d1a330800000000000000
+      internalID: 3720489972786667961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_40
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 490
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7ce8262488207a0800000000000000
+      internalID: -6412413100719421445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_41
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 496
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0174a150444d8970800000000000000
+      internalID: 8758731893343809803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_42
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 489
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be42fb0490ccfd8e0800000000000000
+      internalID: -1666388996990753557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_43
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 484
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a887dda3e6f42ea0800000000000000
+      internalID: -5898318154213914460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_44
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 468
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bc377d2cca75eb0800000000000000
+      internalID: -4731122930691093709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_45
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 454
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed2d10eaf3148a60800000000000000
+      internalID: 7675281633168928225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 211
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007263bae9ab74460800000000000000
+      internalID: 7225949317779302144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_47
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 426
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2fe361b886a6c00800000000000000
+      internalID: 894642422569431720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_48
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 432
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297365bad554793c0800000000000000
+      internalID: -4352934246221465710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_49
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 420
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943b57ccfd1f98790800000000000000
+      internalID: -7527219358662806711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_50
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 389
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb847070574cf9f10800000000000000
+      internalID: 2278755943380895932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_51
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 395
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6251562ff881cb80800000000000000
+      internalID: -8376263202491510166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_52
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 395
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06402dfc6a237e80800000000000000
+      internalID: -8182149450410473974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_53
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 353
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bc20e53b2016780800000000000000
+      internalID: -8691662836448703718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_54
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 355
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3f12777ff13d940800000000000000
+      internalID: 5319630732570784753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_55
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 315
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eddc9363e6afe670800000000000000
+      internalID: 8570252111468355047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_56
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 290
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921605b2383c5f550800000000000000
+      internalID: 6194071830652805417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_57
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 258
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bddbfb003812e50800000000000000
+      internalID: 6782846553036806978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_58
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 191
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc7dd1d1b25e7780800000000000000
+      internalID: -8683412107840095043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_59
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 169
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e19120d5f1347750800000000000000
+      internalID: 6301716710426776039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 191
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e14c3917439b6ac0800000000000000
+      internalID: -3860830321964727840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_61
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 145
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9528e4c456245bd0800000000000000
+      internalID: -2642444935836981860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_62
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 131
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a1484208b33f920800000000000000
+      internalID: 3022825196450224730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powered-Down Pixel Server Core_63
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 97
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07856a747226c3580800000000000000
+      internalID: -8846087647217166224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Powered-Down Pixel Server Core_0: 1418243231737791058
+      Powered-Down Pixel Server Core_1: 7096825103009460018
+      Powered-Down Pixel Server Core_10: -7561114226582896080
+      Powered-Down Pixel Server Core_11: 7016208414739853734
+      Powered-Down Pixel Server Core_12: -4774159214355455546
+      Powered-Down Pixel Server Core_13: -5130798686927503641
+      Powered-Down Pixel Server Core_14: 5695701378088490846
+      Powered-Down Pixel Server Core_15: -7864552408083587936
+      Powered-Down Pixel Server Core_16: 1920055944000738294
+      Powered-Down Pixel Server Core_17: -9026841184929964351
+      Powered-Down Pixel Server Core_18: -7900850233233479141
+      Powered-Down Pixel Server Core_19: -6884143354352938344
+      Powered-Down Pixel Server Core_2: -8758356319713152813
+      Powered-Down Pixel Server Core_20: -6260312872542904125
+      Powered-Down Pixel Server Core_21: -123555262000097585
+      Powered-Down Pixel Server Core_22: 1896445719317467009
+      Powered-Down Pixel Server Core_23: -6530117492311798933
+      Powered-Down Pixel Server Core_24: 5711540828326385845
+      Powered-Down Pixel Server Core_25: -3103282476360733481
+      Powered-Down Pixel Server Core_26: 4930388036319551650
+      Powered-Down Pixel Server Core_27: -1363216987254197424
+      Powered-Down Pixel Server Core_28: -3393430060052563253
+      Powered-Down Pixel Server Core_29: 411027958029280643
+      Powered-Down Pixel Server Core_3: 1031999341270921165
+      Powered-Down Pixel Server Core_30: -1295009478048409566
+      Powered-Down Pixel Server Core_31: 8933467858673103852
+      Powered-Down Pixel Server Core_32: -7042948749736666410
+      Powered-Down Pixel Server Core_33: -6277676442633316997
+      Powered-Down Pixel Server Core_34: -6721396252681428808
+      Powered-Down Pixel Server Core_35: -6590917483078701579
+      Powered-Down Pixel Server Core_36: 880637383447497029
+      Powered-Down Pixel Server Core_37: 9187669052035842659
+      Powered-Down Pixel Server Core_38: 674033011395082961
+      Powered-Down Pixel Server Core_39: 3720489972786667961
+      Powered-Down Pixel Server Core_4: -1181221139798164540
+      Powered-Down Pixel Server Core_40: -6412413100719421445
+      Powered-Down Pixel Server Core_41: 8758731893343809803
+      Powered-Down Pixel Server Core_42: -1666388996990753557
+      Powered-Down Pixel Server Core_43: -5898318154213914460
+      Powered-Down Pixel Server Core_44: -4731122930691093709
+      Powered-Down Pixel Server Core_45: 7675281633168928225
+      Powered-Down Pixel Server Core_46: 7225949317779302144
+      Powered-Down Pixel Server Core_47: 894642422569431720
+      Powered-Down Pixel Server Core_48: -4352934246221465710
+      Powered-Down Pixel Server Core_49: -7527219358662806711
+      Powered-Down Pixel Server Core_5: 4208149998949259608
+      Powered-Down Pixel Server Core_50: 2278755943380895932
+      Powered-Down Pixel Server Core_51: -8376263202491510166
+      Powered-Down Pixel Server Core_52: -8182149450410473974
+      Powered-Down Pixel Server Core_53: -8691662836448703718
+      Powered-Down Pixel Server Core_54: 5319630732570784753
+      Powered-Down Pixel Server Core_55: 8570252111468355047
+      Powered-Down Pixel Server Core_56: 6194071830652805417
+      Powered-Down Pixel Server Core_57: 6782846553036806978
+      Powered-Down Pixel Server Core_58: -8683412107840095043
+      Powered-Down Pixel Server Core_59: 6301716710426776039
+      Powered-Down Pixel Server Core_6: 6661203855125106996
+      Powered-Down Pixel Server Core_60: -3860830321964727840
+      Powered-Down Pixel Server Core_61: -2642444935836981860
+      Powered-Down Pixel Server Core_62: 3022825196450224730
+      Powered-Down Pixel Server Core_63: -8846087647217166224
+      Powered-Down Pixel Server Core_7: -5431316269262059114
+      Powered-Down Pixel Server Core_8: -3257625228814394406
+      Powered-Down Pixel Server Core_9: 1223327266720567593
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
