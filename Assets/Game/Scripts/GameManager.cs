@@ -125,12 +125,10 @@ public class GameManager : MonoBehaviour
         {
             if (detectionTimer < flickerStartDelay)
             {
-                // Solid red during the beginning of detection.
                 targetAlpha = detectedBorderAlpha;
             }
             else
             {
-                // Flicker after the configured delay.
                 float flicker = Mathf.Abs(
                     Mathf.Sin(Time.time * 12f));
 
@@ -140,9 +138,9 @@ public class GameManager : MonoBehaviour
         }
         else if (detectionLingerTimer > 0f)
         {
-            // Slow flicker after leaving the detection area.
             float remaining = Mathf.Clamp01(
-                detectionLingerTimer / detectionLingerDuration);
+                detectionLingerTimer /
+                detectionLingerDuration);
 
             float slowFlicker = Mathf.Abs(
                 Mathf.Sin(Time.time * 3f));
@@ -238,36 +236,36 @@ public class GameManager : MonoBehaviour
         RefreshUI();
     }
 
-  private void CapturePlayer()
-{
-    detected = false;
-    hidden = false;
-    recharging = false;
-    rewiring = false;
-
-    detectionTimer = 0f;
-    detectionLingerTimer = 0f;
-    captureMessageTimer = captureMessageDuration;
-
-    if (player != null && spawnPoint != null)
+    private void CapturePlayer()
     {
-        Rigidbody2D playerBody =
-            player.GetComponent<Rigidbody2D>();
+        detected = false;
+        hidden = false;
+        recharging = false;
+        rewiring = false;
 
-        if (playerBody != null)
+        detectionTimer = 0f;
+        detectionLingerTimer = 0f;
+        captureMessageTimer = captureMessageDuration;
+
+        if (player != null && spawnPoint != null)
         {
-            playerBody.linearVelocity = Vector2.zero;
-            playerBody.angularVelocity = 0f;
-            playerBody.position = spawnPoint.position;
+            Rigidbody2D playerBody =
+                player.GetComponent<Rigidbody2D>();
+
+            if (playerBody != null)
+            {
+                playerBody.linearVelocity = Vector2.zero;
+                playerBody.angularVelocity = 0f;
+                playerBody.position = spawnPoint.position;
+            }
+            else
+            {
+                player.position = spawnPoint.position;
+            }
         }
-        else
-        {
-            player.position = spawnPoint.position;
-        }
+
+        RefreshUI();
     }
-
-    RefreshUI();
-}
 
     private void RefreshUI()
     {
@@ -290,12 +288,14 @@ public class GameManager : MonoBehaviour
         else if (betaCompleted)
         {
             statusText.text =
-                "BETA COMPLETE - AI reprogrammed!";
+                "REPROGRAMMING COMPLETE!\n" +
+                "You freed your friend.";
         }
         else if (captureMessageTimer > 0f)
         {
             statusText.text =
-                "YOU HAVE BEEN CAUGHT! Returning to checkpoint.";
+                "YOU HAVE BEEN CAUGHT! " +
+                "Returning to checkpoint.";
         }
         else if (detected)
         {
@@ -324,7 +324,11 @@ public class GameManager : MonoBehaviour
         else
         {
             statusText.text =
-                "Objective: Reach the offline AI.";
+                "OBJECTIVE:\n" +
+                "Reach the offline AI.\n" +
+                "Manage your battery.\n" +
+                "Avoid the agents.\n" +
+                "Do not get caught.";
         }
     }
 }
